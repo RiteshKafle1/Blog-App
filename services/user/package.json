@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "server.js",
   "type": "module",
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
@@ -17,11 +16,13 @@
   "dependencies": {
     "@types/dotenv": "^6.1.1",
     "@types/express": "^5.0.5",
+    "@types/jsonwebtoken": "^9.0.10",
     "@types/mongoose": "^5.11.96",
     "@types/nodemon": "^1.19.6",
     "concurrently": "^9.2.1",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.19.2",
     "nodemon": "^3.1.10",
     "typescript": "^5.9.3"
